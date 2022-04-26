@@ -51,6 +51,7 @@ public class trailingZeroes {
         System.out.println(trailingZerosInNum(72));
         System.out.println(trailingZerosInNum(5));
                 System.out.println(trailingZerosInNum(125));
+                System.out.println((double)1/3);
 
     }
 }
