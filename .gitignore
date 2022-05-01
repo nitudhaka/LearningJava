@@ -1,3 +1,5 @@
 .idea/
 LearningJava.iml
-out/production/LearningJava/
+!out
+out/*
+out/
