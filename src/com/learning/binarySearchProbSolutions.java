@@ -18,7 +18,9 @@ public class binarySearchProbSolutions {
          //       System.out.println(Arrays.toString(firstAndLastOccurence(arr1,8)));
                 int[] mountain = {2,6,8,12,15,11,10,9,7,3,1};
         int[] mountain1 = {2,6,6,8,12,15,11,10,9,8,8,7,3,1};
-        System.out.println(peakOfMountain(mountain1));
+     //   System.out.println(peakOfMountain(mountain1));
+           System.out.println(guessNumber(10));
+//        guessNumber(guessNumber);
     }
 
     static int ceilingValue(int arr[], int target){
@@ -133,5 +135,26 @@ public class binarySearchProbSolutions {
             mid = (start+end)/2;
         }
         return arr[start];
+    }
+
+    static int guessNumber(int n) {
+        int start = 1;
+        int end = n;
+        int arrLength=n,mid=(start+end)/2;
+//        int target = guess(n);
+        int target = 6;
+        while (start<end){
+            if (mid == target) {
+                return mid;
+            }
+            if (mid> target) {
+                end = mid - 1;
+            } else {
+                start = mid+1;
+            }
+            mid = (start+end)/2;
+        }
+
+        return mid;
     }
 }
