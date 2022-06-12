@@ -102,8 +102,8 @@
 // }
 // console.log("John".isLengthGreaterThan(3));
 
-var a =3;
-console.log(typeof a );
+// var a =3;
+// console.log(typeof a );
 
-var d = [];
-console.log(typeof d);]
+// var d = [];
+// console.log(typeof d);
