@@ -6,6 +6,6 @@ package com.learning;
 public class pointer {
     public static void main(String[] args) {
         int a =5;
-        int p =&a;
+//        int p =&a;
     }
 }

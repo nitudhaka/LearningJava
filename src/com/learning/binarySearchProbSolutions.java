@@ -23,7 +23,7 @@ public class binarySearchProbSolutions {
 //        guessNumber(guessNumber);
     }
 
-    static int ceilingValue(int arr[], int target){
+     static int ceilingValue(int arr[], int target){
         int start = 0;
         int end = arr.length-1;
         int mid = start+(end-start)/2;
